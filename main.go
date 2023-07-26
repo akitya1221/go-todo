@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"main/app/models"
+)
+
 func main() {
 	// テスト出力
 	/*
@@ -10,4 +15,6 @@ func main() {
 
 		log.Println("test")
 	*/
+
+	fmt.Println(models.Db)
 }
