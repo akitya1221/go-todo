@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"main/app/models"
-)
-
 func main() {
 	// テスト出力
 	/*
@@ -16,5 +11,15 @@ func main() {
 		log.Println("test")
 	*/
 
-	fmt.Println(models.Db)
+	/*
+		fmt.Println(models.Db)
+
+		u := &models.User{}
+		u.Name = "test"
+		u.Email = "test@example.com"
+		u.PassWord = "testtest"
+		fmt.Println(u)
+
+		u.CreateUser()
+	*/
 }
